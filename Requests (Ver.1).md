@@ -224,13 +224,20 @@ Requests : <br>
 
 ## Board
 
+Function : <br>
+- 글 작성 <br>
+- 게시글 열람
+
+Notes : <br>
+글의 영역과 배경의 영역 구분이 없으며, 영역 사이즈로 인한 공백이 생겨 허전함을 주는 문제가 있으나, 그렇다고 이 영역을 무작정 늘리는 것은 불가능함.
+
+Requests : <br>
+게시판
+게시글 열람 - 제목, 글 정보, 글 내용을 포함한 텍스트 뷰어 영역을 만들고, 배경과 구분을 지어 빈 페이지 느낌을 줄이기 <br>
+(희망사항) 배경 페이지를 디자인/이미지 등 추가를 통해 어느 정도 채워진 느낌이 들 수 있도록 만들기 <br>
+(희망사항) 글 작성 페이지 (영상 3:30 참조) 텍스트 에디터 영역 또한 같은 사항 적용
+
 ### Project Archives
-
-Notes :
-
-Requests
-
-Function :
 
 Notes : 기본 구조가 동일하므로 같은 내용 적용
 
@@ -244,21 +251,15 @@ Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ## SIG/PIG
 
+Notes : 기본 구조가 동일하므로 같은 내용 적용
+
 ### SIG
 
-Functions : 
-
-Notes :
-
-Requests : 
+Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ### PIG
 
-Functions :
-
-Notes :
-
-Requests : 
+Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ## Contact
 
@@ -266,11 +267,20 @@ Requests :
 
 ![alt text](image-5.png)
 
-Functions :
+Functions : <br>
+- 회장단 연락처
+- 공식 연락처
+- Join us -> 가입 페이지로 연결됨
 
-Notes :
+Notes : <br>
+그냥 연락처 및 가입 버튼 페이지 <br>
+"찾아오시는 길" 메뉴 등 다른 요소들이 추가될 여지는 있음.
 
-Requests : 
+References : [Dropbox](https://www.dropbox.com/dropbox), [VSC](https://code.visualstudio.com/)
+
+Requests : <br>
+텍스트 박스 수정 (이는 SCSC 페이지랑 같은 양식으로) <br>
+Join Us 메뉴에서 Join us! 버튼 디자인 개선 (현재 상태는 조악한 기본 버튼 분위기이므로, 버튼 사이즈 및 배치 변경. Dropbox, VSC 등의 페이지 버튼과 같이 배치 위치 및 버튼 내부 텍스트 위치, 여백 등의 요소들 조정 요망)
 
 ### Join Us!
 
@@ -278,6 +288,6 @@ Requests :
 
 Functions : `None`
 
-Notes : Not implemented yet.
+Notes : 아직 구현되지 않음
 
-Requests : 
+Requests : `None`
