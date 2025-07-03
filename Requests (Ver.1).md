@@ -267,11 +267,20 @@ Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ![alt text](image-5.png)
 
-Functions :
+Functions : <br>
+- 회장단 연락처
+- 공식 연락처
+- Join us -> 가입 페이지로 연결됨
 
-Notes :
+Notes : <br>
+그냥 연락처 및 가입 버튼 페이지 <br>
+"찾아오시는 길" 메뉴 등 다른 요소들이 추가될 여지는 있음.
 
-Requests : 
+References : [Dropbox](https://www.dropbox.com/dropbox), [VSC](https://code.visualstudio.com/)
+
+Requests : <br>
+텍스트 박스 수정 (이는 SCSC 페이지랑 같은 양식으로) <br>
+Join Us 메뉴에서 Join us! 버튼 디자인 개선 (현재 상태는 조악한 기본 버튼 분위기이므로, 버튼 사이즈 및 배치 변경. Dropbox, VSC 등의 페이지 버튼과 같이 배치 위치 및 버튼 내부 텍스트 위치, 여백 등의 요소들 조정 요망)
 
 ### Join Us!
 
@@ -279,6 +288,6 @@ Requests :
 
 Functions : `None`
 
-Notes : Not implemented yet.
+Notes : 아직 구현되지 않음
 
-Requests : 
+Requests : `None`
