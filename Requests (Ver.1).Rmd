@@ -1,7 +1,0 @@
----
-title: "Design Requests"
-author: "J"
-date: "2025-07-01"
-output: html_document
----
-

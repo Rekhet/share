@@ -58,11 +58,13 @@ flowchart TD
 <video controls src="temp_1751470917284.1414414502.mp4" title="Title"></video>
 
 
----
-
 ## Overall
 
-Requests : 배경색에 대한 변경 제안이 있을 시 부탁
+Requests : <br>
+배경색에 대한 변경 제안이 있을 시 부탁 <br>
+글씨체 개선 (가능한 한 컴퓨터동아리라는 특징이 부각될 수 있도록) <br>
+위 영상을 참고하여, 페이지별 동작 이벤트들에 대한 개선 제안이 있을 시 포함 부탁. <br>
+페이지 컴포넌트로 구현이 되어 있지 않으나 있으면 좋을 만한 것들에 대한 의견도 있다면 부탁. 페이지 갈아 엎는 것도 환영.
 
 ---
 
@@ -115,10 +117,10 @@ Functions :
 
 
 Notes : <br>
-Fineart 메인 페이지와 유사하게 배경에  <br>
+Fireart 메인 페이지와 유사하게 배경에  <br>
 단일 페이지
 
-References : [Fineart](https://fireart.studio/)
+References : [Fireart](https://fireart.studio/)
 
 Requests : `None`
 
@@ -215,33 +217,36 @@ Functions : None
 Notes : <br>
 회칙이 그냥 단순 텍스트 박스 안에 포함되어 있으며, 가운데에 오브젝트로 존재. 해당 오브젝트 외의 페이지가 비어 있어 미완성 또는 미흡의 느낌을 줌.
 
-References : [민법](https://law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%EB%AF%BC%EB%B2%95#AJAX), [Apple Privacy Policy](https://www.apple.com/legal/privacy/en-ww/), [AirBnB 이용약관](https://www.airbnb.co.kr/help/article/2908), [Dropbox Terms of Service](https://www.dropbox.com/en/terms)
+References : [민법](https://law.go.kr/lsSc.do?section=&menuId=1&subMenuId=15&tabMenuId=81&eventGubun=060101&query=%EB%AF%BC%EB%B2%95#AJAX), [Apple Privacy Policy](https://www.apple.com/legal/privacy/en-ww/), [AirBnB Terms of Service](https://www.airbnb.com/help/article/2908?locale=en&_set_bev_on_new_domain=1751474724_EAOTVkNWE0YjJjYz), [Dropbox Terms of Service](https://www.dropbox.com/en/terms)
 
 Requests : <br>
-민법 
+민법 페이지의 조항 링크 구조를 참고하며, Apple Privacy Policy(드롭다운 형식) 또는 AirBnB Terms of Service(장문 형식) 및 기타 페이지들 중 선택하여 유사한 양식으로 구성 (전반적으로 약관, 규정 페이지들 양식이라고 생각하면 됨.)
 
 ## Board
 
 ### Project Archives
 
+Notes :
+
+Requests
+
+Function :
+
+Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ### Album
 
-Notes :
-
-Requests : 
+Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ### Notice
-
-Notes :
-
-Requests : 
+ 
+Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ## SIG/PIG
 
 ### SIG
 
-Functions :
+Functions : 
 
 Notes :
 
