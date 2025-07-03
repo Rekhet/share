@@ -1,30 +1,37 @@
 ---
-title: "Design Requests"
-date: "2025-07-01"
+제목: "Design Requests"
+작성자: 김재희
+최초작성일: "2025-07-01"
+최신개정일: "2025-07-03"
 ---
 
 # Primary Requests
 
-Target | Styles | Sizes | Arrangements | Colors | Images
---- | --- | --- | --- | --- | ---
-Text | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\square$$
-Object | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\square$$
-Background | $$\blacksquare$$ | $$\square$$ | $$\square$$ | $$\blacksquare$$ | $$\blacksquare$$
+| Target     | Styles           | Sizes            | Arrangements     | Colors           | Images           |
+|------------|:----------------:|:----------------:|:----------------:|:----------------:|:---------------:|
+| Text       | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\square$$      |
+| Object     | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\blacksquare$$ | $$\square$$      |
+| Background | $$\blacksquare$$ | $$\square$$      | $$\square$$      | $$\blacksquare$$ | $$\blacksquare$$ |
 
 ## To be designed
 
-<page style="font-size:18px">
-Header <br>
-Footer <br>
-Homepage <br>
-Login <br>
-SCSC <br>
-Peoples <br>
-Rules <br>
-Board-Type1 <br>
-Board-Type2 <br>
-Contact <br>
-</page>
+| 경로/컴포넌트           | 설명                        |
+|-----------------------|-----------------------------|
+| Header                | 상단 네비게이션 바            |
+| Footer                | 하단 바                      |
+| Homepage(/)           | 메인 페이지                  |
+| /us/login             | 유저 로그인 페이지            |
+| /about/               | SCSC 소개 페이지             |
+| /about/executives     | 운영진 소개 페이지            |
+| /about/developers     | 개발자 소개 페이지            |
+| /about/rules          | 회칙 페이지                  |
+| /about/my-page        | 정보 페이지                  |
+| /sig                  | 시그 페이지                  |
+| /pig                  | 피그 페이지                  |
+| /us/contact           | 동아리 대표 연락처 페이지      |
+
+---
+
 <br>
 
 # Page Structure
@@ -57,14 +64,15 @@ flowchart TD
 
 <video controls src="temp_1751470917284.1414414502.mp4" title="Title"></video>
 
+<br>
 
 ## Overall
 
 Requests : <br>
-배경색에 대한 변경 제안이 있을 시 부탁 <br>
-글씨체 개선 (가능한 한 컴퓨터동아리라는 특징이 부각될 수 있도록) <br>
-위 영상을 참고하여, 페이지별 동작 이벤트들에 대한 개선 제안이 있을 시 포함 부탁. <br>
-페이지 컴포넌트로 구현이 되어 있지 않으나 있으면 좋을 만한 것들에 대한 의견도 있다면 부탁. 페이지 갈아 엎는 것도 환영.
+동아리 대표 색상이 필요하며, 구체적으로는 어두운 무채색 또는 푸른 계열이 선호되는 것 같습니다. <br>
+글씨체 개선이 필요합니다. 제목용 글씨에 하나와 본문용 글씨체가 하나를 설정하면 좋을 것 같고, 제목용 글씨체의 경우 컴퓨터 동아리의 이미지를 부각할 수 있으면 좋을 것 같습니다. <br>
+현재 페이지에 애니메이션이 적용되어있지 않거나, 단순이 떠오르는 애니메이션이 일괄 적용되어 있습니다. (위 영상을 참조), 페이지별 동작 이벤트들에 대한 개선 제안이 필요합니다. <br>
+페이지 컴포넌트로 구현이 되어 있지 않으나 있으면 좋을 만한 것들에 대한 의견도 있다면 부탁드립니다. 페이지 갈아 엎는 것도 환영입니다.
 
 ---
 
@@ -72,10 +80,10 @@ Requests : <br>
 
 ### Header Composition: 
 
-![alt text](image-8.png)
+<img src="image-8.png" width="600em"></img>
 
 - Logo <br><br>
-  <img src="image-7.png" width="200px"></img> <br><br>
+  <img src="image-7.png" width="150em"></img> <br><br>
 - About us
 - Board
 - SIG/PIG
@@ -84,7 +92,7 @@ Requests : <br>
 
 Functions : <br>
 1. 메뉴 위 마우스 호버 이벤트(특정 오브젝트 위에 마우스를 올려 놓을 시 발생하는 변화): 토글<br>
-![alt text](image-10.png)
+<img src="image-10.png" width="180em"></img>
   
 
 Notes : `None`
@@ -96,7 +104,7 @@ Header size 및 버튼 배치에 변경 <br>
 
 ### Footer Composition: 
 
-![alt text](image-9.png)
+<img src="image-9.png" width="400em"></img>
 
 - 대표자(회장) 연락처
 - 동아리 공식 계정(EMail, GitHub, Instagram)
@@ -109,11 +117,11 @@ Requests : <br>
 
 
 ## Homepage
-![alt text](image.png)
+<img src="image.png" width="600em"></img>
 
 Functions : 
 로딩 시 "//Welcome to SCSC" 문구가 입력된 후 커서가 깜빡이는 상태 유지 <br>
-<video src="HomepageText.mp4" controls width="600"></video>
+<video src="HomepageText.mp4" controls width="600em"></video>
 
 
 Notes : <br>
@@ -127,7 +135,7 @@ Requests : `None`
 
 ## Login
 
-![alt text](image-6.png)
+<img src="image-6.png" width="600em"></img>
 
 Functions : 현재 구현된 것이 거의 없는 상태
 
@@ -138,8 +146,7 @@ References : [Muzli](https://muz.li/)
 Requests : <br>
 SCSC 로고 등의 이미지 및 로그인 버튼 오브젝트를 포함한 로그인 페이지 구성 (위 Reference) 
 
-![Muzli의 로그인 창](image-12.png)
-(Muzli의 로그인 창)
+<img src="image-12.png" width="600em"></img>
 
 위 이미지 참고 요망 <br>
 각각의 요소들에 대한 글씨체 설정
@@ -169,7 +176,7 @@ Requests : <br>
 
 ### SCSC
 
-![alt text](image-1.png)
+<img src="image-1.png" width="600em"></img>
 
 Functions : <br>
 스크롤에 따라 페이드인으로 아래의 요소들이 표시되기 시작함 <br>
@@ -188,7 +195,7 @@ Requests : <br>
 
 ### Executives
 
-![alt text](image-2.png)
+<img src="image-2.png" width="600em"></img>
 
 Functions : <br>
 각 박스에 대한 호버 이벤트 (영상 참고)
@@ -204,13 +211,13 @@ Requests : <br>
 
 ### Developers
 
-![alt text](image-3.png)
+<img src="image-3.png" width="600em"></img>
 
 Notes : Executives 페이지와 동일
 
 ### Rules
 
-![alt text](image-4.png)
+<img src="image-4.png" width="600em"></img>
 
 Functions : None
 
@@ -265,7 +272,7 @@ Notes : 기본 구조가 동일하므로 같은 내용 적용
 
 ### Contact Us!
 
-![alt text](image-5.png)
+<img src="image-5.png" width="600em"></img>
 
 Functions : <br>
 - 회장단 연락처
@@ -284,7 +291,7 @@ Join Us 메뉴에서 Join us! 버튼 디자인 개선 (현재 상태는 조악�
 
 ### Join Us!
 
-![alt text](image-6.png)
+<img src="image-6.png" width="600em"></img>
 
 Functions : `None`
 
